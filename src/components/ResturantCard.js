@@ -49,7 +49,7 @@ function RestaurantCard(props) {
 
             <span className="text-gray-700 font-medium">{avgRating}</span>
             <span className="text-gray-400">•</span>
-            <span className="text-gray-600">{sla.slaString}</span>
+            <span className="text-gray-600">{sla?.slaString}</span>
           </div>
 
           <p className="text-gray-500 mb-3">
