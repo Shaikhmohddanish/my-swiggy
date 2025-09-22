@@ -7,7 +7,6 @@ function TopRestaurants(){
     const [topRestaurants,setTopRestaurants] = useState(TOP_RESTAURANTS_NEAR_ME);
 
     let searchValue = "";
-    // let topRestaurants = TOP_RESTAURANTS_NEAR_ME;
     function handleSearch(){
         setTopRestaurants(TOP_RESTAURANTS_NEAR_ME.filter((restaurant)=>{
             return restaurant.info.name.toLowerCase().includes(searchValue.toLowerCase());
